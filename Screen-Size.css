@@ -1,19 +1,13 @@
+/* .....................<Section>..........Starts.............................*/
+
 #screensizemap-section {
   position: relative;
   top: auto;
   left: 0;
 }
 
-@media screen and (max-width: 768px) constructed stylesheet #screensizemap-section .wrapper {
+@media screen and (max-width: 768px) #screensizemap-section .wrapper {
   padding: 0;
-}
-
-.wrapper {
-  position: relative;
-  max-width: 1600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #screensizemap {
@@ -42,43 +36,6 @@
   padding: 0;
   padding-bottom: 100%;
   padding-bottom: 56.25%;
-}
-
-.touch-tip {
-  pointer-events: none;
-}
-
-.touch-tip.hide {
-  visibility: hidden;
-  opacity: 0;
-}
-
-@media screen and (max-width: 768px) constructed stylesheet .touch-tip.yes-js {
-  font-size: 0.765em;
-  width: auto;
-  white-space: nowrap;
-}
-
-.touch-tip.yes-js {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 99999;
-  padding: 1.5em;
-  border-radius: 1em;
-  min-width: 13em;
-}
-
-@media screen and (max-width: 768px) constructed stylesheet .touch-tip.yes-js:before {
-  content: "Touch the map for details";
-  white-space: pre;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
 }
 
 #svg-screensizes {
@@ -138,364 +95,9 @@
   fill-opacity: 0.2;
 }
 
-@media screen and (max-width: 768px) .wrapper {
-  padding: 0 16px;
-}
+/* .....................<Section>..........Ends................................*/
 
-.wrapper {
-  position: relative;
-  max-width: 1600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main {
-  text-align: left;
-}
-
-@media (max-width: 767px) h2 {
-  font-size: 21px;
-}
-
-h2 {
-  font-weight: 300;
-  line-height: 1.3846153;
-  letter-spacing: 0.2px;
-  margin: 5em auto 3em;
-  text-align: center;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small {
-  display: block;
-  max-width: 600px;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.list-of-blog-items.small {
-  position: relative;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item {
-  padding-left: 0;
-  padding-right: 88px;
-  min-height: 80px;
-  margin-bottom: 24px;
-}
-
-.list-of-blog-items.small .blog-list-item {
-  display: block;
-  overflow: hidden;
-  max-width: 100%;
-  position: relative;
-  padding-bottom: 0;
-}
-
-.list-of-blog-items .blog-list-item {
-  text-align: left;
-  justify-self: center;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-image {
-  position: absolute;
-  left: auto;
-  right: 0;
-  top: 0;
-  width: 80px;
-  height: 80px;
-  padding-right: 0;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-image a {
-  display: block;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-}
-
-a {
-  background-color: transparent;
-}
-
-a:-webkit-any-link {
-  cursor: pointer;
-}
-
-.list-of-blog-items .blog-list-item {
-  text-align: left;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-image img {
-  width: auto;
-  height: 100%;
-  transform: translateX(-50%);
-  position: relative;
-  left: 50%;
-}
-
-.list-of-blog-items .blog-list-item .blog-list-item-image img {
-  border: 1px solid #f8f8f8;
-}
-
-img {
-  vertical-align: middle;
-}
-
-@media (max-width: 767px) constructed stylesheet .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.1px;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-weight: 400;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.1px;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-lead {
-  display: none;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-lead {
-  font-size: 13px;
-  line-height: 21.5px;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-lead {
-  font-weight: 300;
-  letter-spacing: 0.1px;
-  width: auto;
-  margin-top: 0;
-  max-width: 584px;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-lead {
-  font-size: 13px;
-  line-height: 21.5px;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-lead {
-  font-weight: 300;
-}
-
-@media (max-width: 767px) .list-of-blog-items .blog-list-item .blog-list-item-footer {
-  font-size: 13px;
-  line-height: 21.5px;
-}
-
-.list-of-blog-items .blog-list-item .blog-list-item-footer {
-  font-weight: 300;
-  letter-spacing: 0.1px;
-  color: #878787;
-  position: relative;
-}
-
-div {
-  display: block;
-}
-
-.list-of-blog-items .blog-list-item {
-  text-align: left;
-}
-
-.list-of-blog-items .blog-list-item .blog-list-item-footer .article-info,
-.list-of-blog-items .blog-list-item .blog-list-item-footer span.article-info {
-  display: inline-block;
-  padding-top: 0.5em;
-}
-
-@media (max-width: 767px) .s-text {
-  font-size: 13px;
-  line-height: 21.5px;
-}
-
-.s-text {
-  font-weight: 300;
-  letter-spacing: 0.1px;
-}
-
-.text-grey-60 {
-  color: #878787;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item {
-  padding-left: 0;
-  padding-right: 88px;
-  min-height: 80px;
-  margin-bottom: 24px;
-}
-
-.list-of-blog-items.small .blog-list-item {
-  display: block;
-  overflow: hidden;
-  max-width: 100%;
-  position: relative;
-  padding-bottom: 0;
-}
-
-.list-of-blog-items .blog-list-item {
-  text-align: left;
-  justify-self: center;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-image {
-  position: absolute;
-  left: auto;
-  right: 0;
-  top: 0;
-  width: 80px;
-  height: 80px;
-  padding-right: 0;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-image a {
-  display: block;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.1px;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-weight: 400;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  display: inline-block;
-  width: auto;
-  margin-top: 0;
-  max-width: 584px;
-}
-
-@media (max-width: 767px) .list-of-blog-items .blog-list-item .blog-list-item-footer {
-  font-size: 13px;
-  line-height: 21.5px;
-}
-
-.list-of-blog-items .blog-list-item .blog-list-item-footer {
-  font-weight: 300;
-  letter-spacing: 0.1px;
-  color: #878787;
-  position: relative;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item {
-  padding-left: 0;
-  padding-right: 88px;
-  min-height: 80px;
-  margin-bottom: 24px;
-}
-
-.list-of-blog-items.small .blog-list-item {
-  display: block;
-  overflow: hidden;
-  max-width: 100%;
-  position: relative;
-  padding-bottom: 0;
-}
-
-.list-of-blog-items .blog-list-item {
-  text-align: left;
-  justify-self: center;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-image {
-  position: absolute;
-  left: auto;
-  right: 0;
-  top: 0;
-  width: 80px;
-  height: 80px;
-  padding-right: 0;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-image a {
-  display: block;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-image {
-  position: absolute;
-  left: auto;
-  right: 0;
-  top: 0;
-  width: 80px;
-  height: 80px;
-  padding-right: 0;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.1px;
-}
-
-@media (max-width: 767px) .list-of-blog-items.small .blog-list-item .blog-list-item-header {
-  font-weight: 400;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-em {
-  font-style: italic;
-}
-
-.list-of-blog-items .blog-list-item .blog-list-item-lead p {
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-image a {
-  display: block;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.list-of-blog-items.small .blog-list-item .blog-list-item-image img {
-  width: auto;
-  height: 100%;
-  transform: translateX(-50%);
-  position: relative;
-  left: 50%;
-}
-
-.list-of-blog-items .blog-list-item .blog-list-item-image img {
-  border: 1px solid #f8f8f8;
-}
-
-img {
-  vertical-align: middle;
-}
+/* .....................<Body>..........Starts.................................*/
 
 body {
   text-align: center;
@@ -520,9 +122,17 @@ body {
   min-width: 18.75em;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: block;
 }
+
+/* .....................<Body>..........Ends.................................*/
+
+/* .....................<Main>..........Starts.................................*/
 
 main {
   text-align: left;
@@ -533,10 +143,9 @@ main {
 main {
   display: block;
 }
+/* .....................<Main >..........Ends.......................................................*/
 
-@media (max-width: 767px) constructed stylesheet .page-header {
-  padding-bottom: 8px;
-}
+/* .....................<Main - Header Section 1>..........Starts...................................*/
 
 .page-header {
   display: block;
@@ -551,49 +160,16 @@ main {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) .wrapper {
-  padding: 0 16px;
-}
-
 .wrapper {
   position: relative;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 32px;
 }
 
-.page-header .ssm-logo-container {
-  display: block;
-  width: 100%;
-}
-
-.page-header .wrapper {
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) #ssm-logo {
-  height: 26px;
-  margin-top: 12px;
-}
-
-#ssm-logo {
-  width: auto;
-  position: relative;
-  display: inline-block;
-  top: 0;
-  float: none;
-}
-
-svg {
-  vertical-align: middle;
-}
-
-:not(svg) {
-  transform-origin: 0px 0px;
-}
-
-.page-header h1 {
-  font-weight: 300;
+.page-header h3 {
+  font-weight: 250;
   line-height: 1.3846153;
   letter-spacing: 0.2px;
   text-align: center;
@@ -601,12 +177,9 @@ svg {
   color: #191919;
 }
 
-@media (max-width: 767px) .page-header p {
-  font-size: 11px;
-}
-
 .page-header p {
   display: block;
+  font-size: 11px;
   font-weight: 300;
   line-height: 16px;
   letter-spacing: 0.1px;
@@ -616,20 +189,20 @@ svg {
   color: #878787;
 }
 
-p {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+.page-header .ssm-logo-container {
+  text-align: center;
+  text-decoration: black;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: bold;
 }
 
-@media screen and (max-width: 768px) #header-section {
-  height: 100%;
-  max-height: 48px;
-  padding: 0;
-  overflow: hidden;
-  transition: max-height 0.6s ease-in-out;
-}
+/* .....................<Main - Header Section 1>..........Ends...................
+
+
+
+
+/* .....................<Main - Header Section 2>..........Starts.................................*/
 
 #header-section {
   position: relative;
@@ -637,6 +210,7 @@ p {
   display: block;
   width: 100%;
   min-height: 64px;
+  padding-top: 16px;
   background-color: transparent;
   text-align: center;
 }
@@ -647,100 +221,187 @@ p {
   text-align: left;
 }
 
-@media screen and (max-width: 768px) .wrapper {
-  padding: 0 16px;
-}
-
-@media screen and (max-width: 768px) #header-section .ssm-logo-container {
-  position: absolute;
-  left: 16px;
-  top: 0;
-}
-
-@media screen and (max-width: 768px) constructed stylesheet #header-section .left {
-  width: 100%;
-  clear: both;
-  float: left;
-  height: auto;
-}
-
-#header-section .ssm-logo-container {
-  display: none;
-}
-
-@media screen and (max-width: 768px) #ssm-logo {
-  height: 26px;
-  margin-top: 12px;
-}
-
-#ssm-logo {
-  width: auto;
+.wrapper {
   position: relative;
+  max-width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32px;
+}
+
+.caller-group-label.inline {
   display: inline-block;
-  top: 0;
-  float: none;
-}
-
-svg {
-  vertical-align: middle;
-}
-
-@media screen and (max-width: 768px) constructed stylesheet #header-section .ssm-logo-container {
-  position: absolute;
-  left: 16px;
-  top: 0;
-}
-
-@media screen and (max-width: 768px) constructed stylesheet #header-section .left {
-  width: 100%;
-  clear: both;
   float: left;
-  height: auto;
+  padding-bottom: 0;
+  padding-top: 8px;
+  padding-right: 8px;
+  position: relative;
 }
 
-#header-section .ssm-logo-container {
-  display: none;
+#pop-info {
+  display: inline-block;
+  color: #191919;
+  position: absolute;
+  right: 100%;
+  padding-right: 0.5em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.caller-group-label.inline p {
+  color: #878787;
+  font: 10px helvetica, Arial;
+  padding: 8px 8px 0px 0px;
+  align-content: initial;
+}
+
+.chip-button-group {
+  display: inline-block;
+  float: left;
+  text-align: justify;
+}
+
+.chip-button-group .chip-button:first-child {
+  border-radius: 200px 0 0 200px !important;
+}
+
+.no-touchevents .chip-button:nth-child(2) {
+  background-color: #dadada;
+  color: #141414;
+}
+
+.no-touchevents .chip-button:nth-child(3) {
+  background-color: #dadada;
+  color: #141414;
+}
+
+.chip-button-group .chip-button:last-child {
+  border-top-right-radius: 0px;
+}
+
+.chip-button-group .chip-button + .chip-button {
+  margin-left: 0;
+  border-left-width: 1px;
+}
+
+.chip-button {
+  border-radius: 0;
+  float: left;
+}
+
+.chip-button {
+  background-color: lightgray;
+  color: black;
+  margin-right: 16px;
+}
+
+.chip-button-group .chip-button:last-child {
+  border-radius: 0 200px 200px 0;
+}
+
+.chip-button-group .chip-button + .chip-button {
+  margin-left: 0;
+  border-left-width: 1px;
+}
+
+.chip-button li {
+  background-color: lightgray;
+}
+
+#category-control {
+  position: relative;
 }
 
 .left {
+  display: inline-block;
+  float: left;
   margin-right: 8px;
 }
 
-@media screen and (max-width: 768px) #svg-controll-mobile-caller {
-  user-select: none;
-  display: inline-block;
-  height: 48px;
-  width: auto;
+#category-control-caller {
   position: relative;
-  margin: 0;
-  padding: 16px 0 0;
-  color: #575757;
-  background-color: transparent;
-  text-align: center;
+}
+
+.chip-button {
+  user-select: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1em;
   cursor: pointer;
-}
-
-html {
-  line-height: 1.4;
-}
-
-@media screen and (max-width: 768px) #svg-controll-mobile-caller svg {
-  fill: #575757;
-  width: auto;
-  height: 20px;
   display: inline-block;
   float: left;
+  min-height: 0;
+  height: 30px;
+  max-height: 30px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 8px;
+  color: #141414;
+  background-color: #ececec;
+  border-radius: 200px;
+  transition: background-color 0.4s linear, border-color 0.4s linear,
+    color 0.4s linear;
+  border-width: 0;
+  border-style: solid;
+  border-left-color: #f8f8f8;
+  white-space: nowrap;
 }
 
-@media screen and (max-width: 767px) and (max-width: 768px) #svg-controll-mobile-caller .label {
-  font-size: 13px;
-  line-height: 21.5px;
+#category-control-caller .dot.extra-small {
+  background-color: #8e44ad;
+  margin-right: 4px;
+  clear: both;
 }
 
-@media screen and (max-width: 768px) constructed stylesheet #svg-controll-mobile-caller .label {
-  font-weight: 300;
-  letter-spacing: 0.1px;
-  padding: 0 0 0 4px;
-  height: 20px;
+#category-control-caller .dot {
+  display: inline-block;
   float: left;
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+  margin-bottom: 4px;
+  text-align: justify;
+}
+
+#category-control-caller .dot.small {
+  background-color: #2980b9;
+  margin-right: 4px;
+}
+
+#category-control-caller .dot.medium {
+  background-color: #2ecc71;
+}
+
+#category-control-caller .dot.large {
+  background-color: #e74c3c;
+  margin-right: 4px;
+  clear: both;
+}
+
+#category-control-caller .dot.extra-large {
+  background-color: #e67e22;
+  margin-right: 4px;
+}
+
+#category-control-caller .dot.extra-extra-large {
+  background-color: #f1c40f;
+}
+
+#fullscreen-caller .fullscreen-opener {
+  display: inline-block;
+  min-width: 20px;
+  max-width: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 7px;
+  padding-bottom: 4px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.chip-button.dark {
+  background-color: lightgrey;
+  margin-bottom: 50px;
+  box-sizing: border-box;
 }
